@@ -96,7 +96,6 @@ body{
 
 
 hr{
-    /* border-top: 0.5px solid hsl(214, 18%, 43%); */
     height: 0.1px;
     background-color: hsl(215, 51%, 70%);
 }
@@ -141,7 +140,10 @@ span:hover{
         width: 85%;
         height: 90%;
     }
-
+    
+    .card-content{
+        gap: 28px;
+    }
     .price {
         gap: 60px;
     }
